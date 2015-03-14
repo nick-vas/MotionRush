@@ -1,11 +1,11 @@
---.Preloader = function (game) {
+MotionRush.Preloader = function (game) {
 
     this.titleText = null;
     this.ready = false;
 
 };
 
---.Preloader.prototype = {
+MotionRush.Preloader.prototype = {
 
 
     update: function () {

@@ -1,9 +1,9 @@
---.Menu = function (game) {
+MotionRush.Menu = function (game) {
     this.startBG;
     this.ding;
 }
 
---.Menu.prototype = {
+MotionRush.Menu.prototype = {
 
     create: function () {
 

@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width">
     <link rel="icon" sizes="--" href="--">
-    <title>--</title>
+    <title>MotionRush</title>
     <script src="libs/phaser.js"></script>
     <script src="Boot.js"></script>
     <script src="Preloader.js"></script>
@@ -26,11 +26,11 @@
     <div id="gameContainer"></div>
     <script type="text/javascript">
         window.onload = function () {
-            var game = new Phaser.Game(--, --, Phaser.AUTO, 'gameContainer'); // Declares size and game container
-            game.state.add('Boot', --.Boot); // Initiates Booter
-            game.state.add('Preloader', --.Preloader); // Initiates Preloader
-            game.state.add('Menu', --.Menu); // Initiates Start menu
-            game.state.add('Game', --.Game); // Initiates Game mode
+            var game = new Phaser.Game(900, 450, Phaser.AUTO, 'gameContainer'); // Declares size and game container
+            game.state.add('Boot', MotionRush.Boot); // Initiates Booter
+            game.state.add('Preloader', MotionRush.Preloader); // Initiates Preloader
+            game.state.add('Menu', MotionRush.Menu); // Initiates Start menu
+            game.state.add('Game', MotionRush.Game); // Initiates Game mode
             game.state.start('Boot'); // Start Game!
         }
     </script>

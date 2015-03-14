@@ -1,8 +1,8 @@
---.Game = function (game) {
+MotionRush.Game = function (game) {
     // Game variable declaration
 };
 
---.Game.prototype = {
+MotionRush.Game.prototype = {
 
     create: function () {
 
