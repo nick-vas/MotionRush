@@ -1,17 +1,17 @@
 MotionRush.Preloader = function (game) {
 
-    this.titleText = null;
-    this.ready = false;
-
 };
 
 MotionRush.Preloader.prototype = {
 
+    preload: function () {
+
+        this.load.image('menuBG', 'images/MotionRush_background.png');
+
+    }, // preload
 
     update: function () {
-        if (this.cache.isSoundDecoded('game_audio') && this.ready == false) {
-            this.ready = true; // game is ready to run
+
             this.state.start('Menu'); // preloads menu
-        }
-    }
-};
+        } // update
+}; // Preloader.prototype

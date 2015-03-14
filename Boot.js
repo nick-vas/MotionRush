@@ -1,6 +1,10 @@
+var MotionRush = {};
+
 MotionRush.Boot = function (game) {};
 
 MotionRush.Boot.prototype = {
+
+
     preload: function () {
 
     },
