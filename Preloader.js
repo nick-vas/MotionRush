@@ -7,6 +7,10 @@ MotionRush.Preloader.prototype = {
     preload: function () {
 
         this.load.image('menuBG', 'images/MotionRush_background.png');
+        this.load.image('pointer', 'images/pointer.png');
+        // spritesheets
+        this.load.spritesheet('box2_sheet', 'images/box2_sheet.png', 1002, 1002);
+        this.load.spritesheet('box4_sheet', 'images/box4_sheet.png', 1005, 1005);
 
     }, // preload
 

@@ -9,6 +9,7 @@
     <link rel="icon" sizes="--" href="--">
     <title>MotionRush</title>
     <script src="libs/phaser.js"></script>
+    <script src="//js.leapmotion.com/leap-0.6.4.js"></script>
     <script src="Boot.js"></script>
     <script src="Preloader.js"></script>
     <script src="Menu.js"></script>
@@ -26,7 +27,7 @@
     <div id="gameContainer"></div>
     <script type="text/javascript">
         window.onload = function () {
-            var game = new Phaser.Game(900, 450, Phaser.AUTO, 'gameContainer'); // Declares size and game container
+            var game = new Phaser.Game(1000, 490, Phaser.AUTO, 'gameContainer'); // Declares size and game container
             game.state.add('Boot', MotionRush.Boot); // Initiates Booter
             game.state.add('Preloader', MotionRush.Preloader); // Initiates Preloader
             game.state.add('Menu', MotionRush.Menu); // Initiates Start menu
